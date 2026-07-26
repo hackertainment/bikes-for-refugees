@@ -76,6 +76,10 @@ p {
   text-decoration: none;
 }
 
+.navigation__link:hover {
+  color: var(--orange-dark);
+}
+
 
 /* Text styles */
 
@@ -96,6 +100,7 @@ p {
 /* Buttons */
 
   /* INSERT BUTTON STYLES HERE */
+.button__volunteer:hover,
 .button__donate {
   background-color: var(--orange-dark);
   color: var(--white);
@@ -104,6 +109,7 @@ p {
   padding: 0.5rem 1rem;
 }
 
+.button__donate:hover,
 .button__volunteer {
   background-color: var(--white);
   color: var(--orange-dark);
